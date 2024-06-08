@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ScrollViewOffset<Content>: View where Content: View {
+public struct ScrollViewOffset<Content>: View where Content: View {
 	let axes: Axis.Set
 	let content: () -> Content
 	let onScroll: (CGFloat) -> Void
@@ -19,7 +19,7 @@ struct ScrollViewOffset<Content>: View where Content: View {
 		}
 	}
 	
-	var body: some View {
+	public var body: some View {
 		ScrollView(axes) {
 			content()
 				.overlay(
