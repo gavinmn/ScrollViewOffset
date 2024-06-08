@@ -5,7 +5,7 @@ public struct ScrollViewOffset<Content>: View where Content: View {
 	let content: () -> Content
 	let onScroll: (CGFloat) -> Void
 	
-	init(axes: Axis.Set = .vertical, @ViewBuilder content: @escaping () -> Content, onScroll: @escaping (CGFloat) -> Void) {
+	public init(axes: Axis.Set = .vertical, @ViewBuilder content: @escaping () -> Content, onScroll: @escaping (CGFloat) -> Void) {
 		self.axes = axes
 		self.content = content
 		self.onScroll = onScroll
