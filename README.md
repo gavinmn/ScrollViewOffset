@@ -9,7 +9,7 @@ You can add ScrollViewOffset to an Xcode project by adding it as a package depen
 1. From the **File** menu, select **Add Packages**.
 2. Enter the package repository URL: `https://github.com/gavinmn/ScrollViewOffset`
 
-Sample usage:
+## Sample usage
 ```swift
 struct ScrollViewOffsetTest: View {
   var body: some View {
