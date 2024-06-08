@@ -1,6 +1,13 @@
 # ScrollViewOffset
 
-A Scroll View that reports its offset value while scrolling.
+ScrollViewOffset is a Swift package that provides a ScrollView with an offset callback.
+
+## Installation
+
+You can add ScrollViewOffset to an Xcode project by adding it as a package dependency.
+
+1. From the **File** menu, select **Add Packages**.
+2. Enter the package repository URL: `https://github.com/gavinmn/ScrollViewOffset`
 
 Sample usage:
 ```swift
